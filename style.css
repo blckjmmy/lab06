@@ -1,0 +1,26 @@
+body { background-color: beige;
+
+}
+
+header {background-color:;
+
+       
+text-align: center;}
+
+
+h1 {background-color: red;
+border: black 1px solid;
+color: rgb(14, 104, 240);}
+
+h2 {background-color: yellow;}
+
+
+header li {border: black 1px solid;
+
+display: inline;}
+
+p {background-color: gray;}
+
+li { }
+
+title {border: black 1px solid;}
