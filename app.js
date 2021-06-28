@@ -13,16 +13,18 @@
 console.log(userName)
 document.write('<h2>' + userName + '</h2>');
 
-let userAnswer = prompt('is naruto awesome?');
+let userAnswer = prompt('is naruto great show?');
 console.log(userAnswer)
 
+ 
+
 if (userAnswer == 'yes') {
-    document.write('<h1>Welcome Great Hokage' + userName + '</h1>');
+    document.write('<h1>welcome Great Hokage ' + userName + '</h1>');
 
 }
 
 if (userAnswer == 'no') {
-    document.write('<h1>Leave outsider' + userName + '</h1>')
+    document.write('<h1>leave village' + userName + '</h1>')
 
 }
 
