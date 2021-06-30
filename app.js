@@ -40,5 +40,18 @@ function getuserAnswer(){
 
 
 
+function Picture(){
+    numOfPics = prompt ('how many clones do you want naruto to make! (from 1 to 100)');
+    url = "https://dw9to29mmj727.cloudfront.net/misc/newsletter-naruto3.png";
+    let picCounter = 1;
+    while (!(numOfPics >= 1 && numOfPics < 100)){
+        numOfPics = prompt ('How many clone u would like to see? (from 1 to 10)');
+    }
 
+    for (let i = 0; i < numOfPics; i++){
+        document.write('<img src="' + url + '" >');
+        document.write('Picture number ' + picCounter++);
+    }
+}
 
+  Picture(); 
