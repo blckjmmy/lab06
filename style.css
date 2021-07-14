@@ -24,3 +24,7 @@ p {background-color: gray;}
 li { }
 
 title {border: black 1px solid;}
+
+div {
+    background: grey;
+  }
